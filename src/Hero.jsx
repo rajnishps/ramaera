@@ -14,7 +14,9 @@ function Hero() {
             independence, customer focus and serving the best quality to the
             people.
           </h3>
-          <button className="exploreBtn">Explore More</button>
+          <a href="/">
+            <button className="exploreBtn">Explore More</button>
+          </a>
         </div>
       </section>
     </main>

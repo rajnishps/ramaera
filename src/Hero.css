@@ -1,6 +1,6 @@
 main {
   position: relative;
-  background-image: url(./assets/bg.svg);
+  background-image: url(./assets/bg.png);
   height: 100vh;
   padding: 3rem;
   background-size: cover;
@@ -47,16 +47,19 @@ h3 {
 }
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 7vw;
+    font-size: 5rem;
   }
   h3 {
-    font-size: 3.5vw;
+    font-size: 3rem;
   }
   .heroText > * {
     margin: 3rem;
   }
   .exploreBtn {
     zoom: 80%;
+  }
+  .heroText {
+    width: 90vw;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -71,5 +74,8 @@ h3 {
   }
   .exploreBtn {
     zoom: 90%;
+  }
+  .heroText {
+    width: 90vw;
   }
 }
