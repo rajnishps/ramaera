@@ -1,0 +1,133 @@
+header {
+  display: flex;
+  gap: 4rem;
+  height: 12rem;
+  margin-top: -1.6rem;
+}
+.navbar {
+  margin: 3rem;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  background: rgba(255, 251, 253, 0.09);
+  border: 2px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12),
+    inset 0px 4px 48px 5px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(4px);
+  border-radius: 1.4rem;
+  position: relative;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+}
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  padding: 20px 20px;
+  transition: 0.4s all;
+}
+
+.navbar-links li.navbar-dropdown {
+  position: relative;
+}
+
+.navbar-links li.navbar-dropdown:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.navbar-links li.navbar-dropdown .dropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding: 20px 0;
+  top: 100%;
+  transform: translateY(50px);
+  left: 0;
+  width: 250px;
+  background: rgba(255, 251, 253, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12),
+    inset 0px 4px 48px 5px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(15.5px);
+  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  z-index: 111;
+  transition: 0.4s all;
+}
+.navbar-links li.navbar-dropdown .dropdown a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-dropdown .dropdown a:hover {
+  padding-left: 30px;
+  color: #232323;
+}
+.navbar-links li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+}
+
+.search-icon {
+  height: 1.4rem;
+}
+.single-nav-link {
+  text-align: center;
+}
+a {
+  font-size: 1.6rem;
+  margin-left: 2.4rem;
+  color: #ffffff;
+}
+.arrow {
+  height: 1rem;
+  margin-left: 0.7rem;
+}
+.second-nav {
+  margin-right: 4rem;
+}
+.second-li {
+  margin: 1rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.logo {
+  width: 10vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .second-li {
+    font-size: 1.4rem;
+  }
+  .search-icon {
+    height: 1.2rem;
+  }
+  a {
+    margin: 0.2rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .second-li {
+    font-size: 1.4rem;
+  }
+  .search-icon {
+    height: 1.2rem;
+  }
+  a {
+    margin: 0.2rem;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+  }
+}

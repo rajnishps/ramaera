@@ -1,0 +1,24 @@
+@font-face {
+  font-family: ZilapOrion;
+  src: url(./assets/ZilapOrion.ttf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100%;
+  color: #ffffff;
+  font-family: "Montserrat Alternates", sans-serif;
+  background: linear-gradient(90deg, #000000 0%, #3e3e3e 100%);
+}
