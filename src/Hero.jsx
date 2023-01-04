@@ -6,7 +6,7 @@ function Hero() {
     <main>
       <Header />
       <Social />
-      <section className="textWrapper">
+      <div className="textWrapper">
         <div className="heroText">
           <h1>Ramaera Industries</h1>
           <h3>
@@ -18,7 +18,7 @@ function Hero() {
             <button className="exploreBtn">Explore More</button>
           </a>
         </div>
-      </section>
+      </div>
     </main>
   )
 }

@@ -1,8 +1,10 @@
 import RightPenta from "../assets/penta.svg"
+import "./End.css"
+
 function End() {
   return (
     <section id="end">
-      <img src={RightPenta} alt="rightPenta" />
+      <img className="right-penta" src={RightPenta} alt="rightPenta" />
     </section>
   )
 }

@@ -12,11 +12,8 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-
-  opacity: 0.99;
   text-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
   font-size: 8rem;
-  word-spacing: 100vw;
 }
 
 h3 {
@@ -35,8 +32,8 @@ h3 {
 .heroText {
   width: 60vw;
 }
-.heroText > * {
-  margin: 2rem;
+.heroText > h3 {
+  margin: 3rem;
 }
 .textWrapper {
   margin-top: 6rem;
