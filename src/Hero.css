@@ -1,6 +1,7 @@
 main {
   position: relative;
   background-image: url(./assets/bg.png);
+  background-position-x: center;
   height: 100vh;
   padding: 3rem;
   background-size: cover;
@@ -16,8 +17,10 @@ h1 {
   font-size: 8rem;
 }
 
-h3 {
+.heroText > h3 {
   font-size: 3rem;
+  width: 70vw;
+  overflow: wrap;
 }
 
 .exploreBtn {
@@ -31,6 +34,10 @@ h3 {
 
 .heroText {
   width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .heroText > h3 {
   margin: 3rem;

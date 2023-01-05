@@ -77,7 +77,9 @@ function Hotel() {
             convenient accommodation at pocket friendly prices .
           </h5>
           <span>
-            <button className="read-button">Read More</button>
+            <button id="hotel-btn" className="read-button">
+              Read More
+            </button>
             <img src={Circle} />
           </span>
         </div>
@@ -107,7 +109,9 @@ function Packing() {
             communication of packaged projects is our foremost priority.
           </h5>
           <span>
-            <button className="read-button">Read More</button>
+            <button id="packing-btn" className="read-button">
+              Read More
+            </button>
             <img src={Circle} />
           </span>
         </div>
@@ -134,7 +138,9 @@ function Fmcg() {
             than the best.
           </h5>
           <span>
-            <button className="read-button">Read More</button>
+            <button id="fmcg-btn" className="read-button">
+              Read More
+            </button>
             <img src={Circle} />
           </span>
         </div>
@@ -163,7 +169,9 @@ function Agriculture() {
             nature
           </h5>
           <span>
-            <button className="read-button">Read More</button>
+            <button id="agri-btn" className="read-button">
+              Read More
+            </button>
             <img src={Circle} />
           </span>
         </div>
@@ -190,7 +198,9 @@ function Ecommerce() {
             the comfort of your homes.
           </h5>
           <span>
-            <button className="read-button">Read More</button>
+            <button id="ecom-btn" className="read-button">
+              Read More
+            </button>
             <img src={Circle} />
           </span>
         </div>
