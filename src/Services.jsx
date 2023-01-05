@@ -37,8 +37,8 @@ function Technology() {
     <section id="tech">
       <img src={Tech} alt="tech" />
       <div>
-        <img src={Icon1} alt="icon1" />
-        <div>
+        <img className="right-icon" src={Icon1} alt="icon1" />
+        <div id="right-text">
           <h3>
             Unleashing the strength of
             <br />
@@ -64,8 +64,8 @@ function Hotel() {
   return (
     <section id="hotel">
       <div>
-        <img src={Icon2} alt="icon2" />
-        <div>
+        <img className="left-icon" src={Icon2} alt="icon2" />
+        <div id="left-text">
           <h3 id="hotel-color">
             Making
             <br />
@@ -95,8 +95,13 @@ function Packing() {
     <section id="packing">
       <img src={PackingGif} alt="Packing" />
       <div>
-        <img src={Icon3} alt="icon3" />
-        <div>
+        <img
+          className="right-icon "
+          id="right-icon-pack"
+          src={Icon3}
+          alt="icon3"
+        />
+        <div id="right-text">
           <h3>
             Packaging industry for
             <br />
@@ -125,8 +130,8 @@ function Fmcg() {
   return (
     <section id="fmcg">
       <div>
-        <img src={Icon4} alt="icon4" />
-        <div>
+        <img className="left-icon" src={Icon4} alt="icon4" />
+        <div id="left-text">
           <h3 id="fmcg-color">
             Offering the best with
             <br />
@@ -156,8 +161,8 @@ function Agriculture() {
     <section id="agri">
       <img src={Agri} alt="Agri" />
       <div>
-        <img src={Icon5} alt="Icon5" />
-        <div>
+        <img className="right-icon" src={Icon5} alt="Icon5" />
+        <div id="right-text">
           <h3>
             Agri-business to bestow
             <br />
@@ -185,8 +190,8 @@ function Ecommerce() {
   return (
     <section id="ecom">
       <div>
-        <img src={Icon6} alt="Icon6" />
-        <div className="hotel-head">
+        <img className="left-icon" src={Icon6} alt="Icon6" />
+        <div className="hotel-head" id="left-text">
           <h3>
             Get all your essentials in
             <br />
